@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Combo&family=Fontdiner+Swanky&display=swap');
+
+ h2, h3, h4{
+    font-family: "Baumans", system-ui;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ p, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    
+}
+/* hero part start */
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* .hero-part  {
+    text-align: start ;
+} */
+.hero-img {
+    mix-blend-mode: lighten;
+    border-radius: 15px;
+}
+/* hero part end */
+
+/* top feature bar start */
+.signatures-section, .recipes-section {
+    background-color: #141414;
+}
+
+.food-card {
+    height: 250px;
+    border: 1px solid #2c2c2c;
+}
+
+.food-img {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.food-card:hover .food-img {
+    transform: scale(1.08);
+}
+.food-card:hover .food-label {
+    transform: scale(1.08);
+}
+.food-label {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    font-size: 0.9rem;
+    transition: transform 0.4s ease;
+}
+/* top feature bar end */
+
+/* about part start */
+.about-con p {
+    font-weight: 600;
+    color:  lightgrey;
+    font-style: initial;
+} 
+/* about part end */
+
+/* form part start */
+.form-select {
+    background: lightgoldenrodyellow;
+}
+.form-control {
+    background: lightgoldenrodyellow !important;
+}
+/* form part end */
